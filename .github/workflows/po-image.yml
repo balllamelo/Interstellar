@@ -15,4 +15,4 @@ jobs:
       - name: publish
         run: |
           docker login -u schoologylearning -p dckr_pat_4uPh9SqXymR2ZzJ0VxbNAWT6EVY
-          docker push USERNAME/addingandmultiplying:latest
+          docker push schoologylearning/addingandmultiplying:latest
